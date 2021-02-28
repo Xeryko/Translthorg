@@ -1,7 +1,8 @@
 cmake_minimum_required(VERSION 3.10)
-project(Translahorg)
+project(Translathorg)
 
 add_executable("${PROJECT_NAME}"
+    src/StringPuller.cpp
     src/Test.cpp
 )
 
